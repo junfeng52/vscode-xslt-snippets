@@ -1,8 +1,10 @@
 {
   "name": "vscode-xslt-snippets",
-  "publisher": "marvinhagemeister",
-  "displayName": "XSLT Snippets",
+  "version": "0.1.0",
   "description": "XSLT Snippets",
+
+  "displayName": "XSLT Snippets",
+  "publisher": "marvinhagemeister",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#0273D4",
@@ -11,9 +13,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marvinhagemeister/vscode-xslt-snippets.git"
+    "url": "https://github.com/junfeng52/vscode-xslt-snippets.git"
   },
-  "version": "0.1.0",
   "engines": {
     "vscode": "0.10.x"
   },
@@ -24,6 +25,10 @@
     "snippets": [
       {
         "language": "xsl",
+        "path": "./snippets/xsl.json"
+      },
+      {
+        "language": "xslt",
         "path": "./snippets/xsl.json"
       }
     ]
